@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/theo/mqtt_subscriber/install/mqtt_subscriber'
+sys.prefix = sys.exec_prefix = '/home/theo/Capstone_communication/install/mqtt_subscriber'

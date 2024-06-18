@@ -20,8 +20,8 @@ class MQTTSubscriber(Node):
         self.mqtt_client.on_connect = self.on_connect
         self.mqtt_client.on_message = self.on_message
 
-        # Update the broker address to the correct IP
-        self.mqtt_client.connect("192.168.0.12", 1883, 60)
+        # Connect to the Windows PC MQTT broker
+        self.mqtt_client.connect("192.168.0.12", 1883, 60)  # Replace with your Windows PC IP address
         self.mqtt_client.loop_start()
 
     def on_connect(self, client, userdata, flags, rc):
