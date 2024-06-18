@@ -1,3 +1,17 @@
 {
-    "ros.distro": "humble"
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages",
+        "/home/theo/ros2_ws/build/mavros_launch",
+        "/home/theo/mqtt_subscriber/install/mavros_launch/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages",
+        "/home/theo/ros2_ws/build/mavros_launch",
+        "/home/theo/mqtt_subscriber/install/mavros_launch/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
 }

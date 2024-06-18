@@ -1,0 +1,28 @@
+[0.655s] Invoking command in '/home/theo/ros2_ws/build/mavros_launch': PYTHONPATH=/home/theo/ros2_ws/build/mavros_launch/prefix_override:/home/theo/ros2_ws/install/mavros_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/ros2_ws/build/mavros_launch/build --no-deps symlink_data
+[0.944s] running develop
+[0.944s] /home/theo/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.944s] !!
+[0.944s] 
+[0.944s]         ********************************************************************************
+[0.944s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.944s]         Instead, use pypa/build, pypa/installer or other
+[0.944s]         standards-based tools.
+[0.944s] 
+[0.944s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.944s]         ********************************************************************************
+[0.944s] 
+[0.944s] !!
+[0.944s]   easy_install.initialize_options(self)
+[1.139s] running egg_info
+[1.153s] writing mavros_launch.egg-info/PKG-INFO
+[1.153s] writing dependency_links to mavros_launch.egg-info/dependency_links.txt
+[1.154s] writing requirements to mavros_launch.egg-info/requires.txt
+[1.154s] writing top-level names to mavros_launch.egg-info/top_level.txt
+[1.182s] reading manifest file 'mavros_launch.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'mavros_launch.egg-info/SOURCES.txt'
+[1.197s] running build_ext
+[1.198s] Creating /home/theo/ros2_ws/install/mavros_launch/lib/python3.10/site-packages/mavros-launch.egg-link (link to .)
+[1.198s] 
+[1.198s] Installed /home/theo/ros2_ws/build/mavros_launch
+[1.198s] running symlink_data
+[1.219s] Invoked command in '/home/theo/ros2_ws/build/mavros_launch' returned '0': PYTHONPATH=/home/theo/ros2_ws/build/mavros_launch/prefix_override:/home/theo/ros2_ws/install/mavros_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/theo/ros2_ws/build/mavros_launch/build --no-deps symlink_data

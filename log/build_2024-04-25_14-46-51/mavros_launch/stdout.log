@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating mavros_launch.egg-info
+writing mavros_launch.egg-info/PKG-INFO
+writing dependency_links to mavros_launch.egg-info/dependency_links.txt
+writing requirements to mavros_launch.egg-info/requires.txt
+writing top-level names to mavros_launch.egg-info/top_level.txt
+writing manifest file 'mavros_launch.egg-info/SOURCES.txt'
+reading manifest file 'mavros_launch.egg-info/SOURCES.txt'
+writing manifest file 'mavros_launch.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/theo/ros2_ws/install/mavros_launch/lib/python3.10/site-packages/mavros-launch.egg-link (link to .)
+
+Installed /home/theo/ros2_ws/build/mavros_launch
+running symlink_data
+creating /home/theo/ros2_ws/install/mavros_launch/share/ament_index
+creating /home/theo/ros2_ws/install/mavros_launch/share/ament_index/resource_index
+creating /home/theo/ros2_ws/install/mavros_launch/share/ament_index/resource_index/packages
+symbolically linking /home/theo/ros2_ws/build/mavros_launch/resource/mavros_launch -> /home/theo/ros2_ws/install/mavros_launch/share/ament_index/resource_index/packages
+symbolically linking /home/theo/ros2_ws/build/mavros_launch/package.xml -> /home/theo/ros2_ws/install/mavros_launch/share/mavros_launch

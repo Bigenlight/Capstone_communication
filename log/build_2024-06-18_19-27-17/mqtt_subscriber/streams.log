@@ -1,0 +1,22 @@
+[0.691s] Invoking command in '/home/theo/mqtt_subscriber/src/mqtt_subscriber': PYTHONPATH=/home/theo/mqtt_subscriber/build/mqtt_subscriber/prefix_override:/home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/theo/mqtt_subscriber/build/mqtt_subscriber/build install --record /home/theo/mqtt_subscriber/build/mqtt_subscriber/install.log --single-version-externally-managed
+[0.888s] running egg_info
+[0.902s] writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO
+[0.902s] writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt
+[0.902s] writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt
+[0.903s] writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt
+[0.933s] reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.934s] running build_py
+[0.934s] copying mqtt_subscriber/__init__.py -> /home/theo/mqtt_subscriber/build/mqtt_subscriber/build/lib/mqtt_subscriber
+[0.934s] copying mqtt_subscriber/mqtt_subscriber.py -> /home/theo/mqtt_subscriber/build/mqtt_subscriber/build/lib/mqtt_subscriber
+[0.934s] running install
+[0.939s] running install_lib
+[0.954s] running install_egg_info
+[0.970s] removing '/home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[0.970s] Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info
+[0.971s] running install_scripts
+[1.107s] Installing mqtt_subscriber script to /home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/mqtt_subscriber
+[1.107s] writing list of installed files to '/home/theo/mqtt_subscriber/build/mqtt_subscriber/install.log'
+[1.126s] Invoked command in '/home/theo/mqtt_subscriber/src/mqtt_subscriber' returned '0': PYTHONPATH=/home/theo/mqtt_subscriber/build/mqtt_subscriber/prefix_override:/home/theo/mqtt_subscriber/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/theo/mqtt_subscriber/build/mqtt_subscriber/build install --record /home/theo/mqtt_subscriber/build/mqtt_subscriber/install.log --single-version-externally-managed
