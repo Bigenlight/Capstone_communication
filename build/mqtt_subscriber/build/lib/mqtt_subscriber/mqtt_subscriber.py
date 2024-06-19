@@ -7,10 +7,15 @@ class MQTTSubscriber(Node):
 
     def __init__(self):
         super().__init__('mqtt_subscriber')
-        self.publisher = self.create_publisher(String, 'mqtt_topic', 10)
+
+        # Create publisher
+        #self.coord_publisher = self.create_publisher(String, 'coordination_list', 10)
+        # self.timer = self.create_timer(1.0, self.read_from_serial)
+
+        self.publisher = self.create_publisher(String, 'coordination_list', 10)
         self.subscription = self.create_subscription(
             String,
-            'mqtt_topic',
+            'coordination_list',
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
@@ -23,6 +28,7 @@ class MQTTSubscriber(Node):
         # Connect to the Windows PC MQTT broker
         self.mqtt_client.connect("192.168.0.12", 1883, 60)  # Replace with your Windows PC IP address
         self.mqtt_client.loop_start()
+
 
     def on_connect(self, client, userdata, flags, rc):
         if rc == 0:

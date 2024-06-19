@@ -1,0 +1,23 @@
+[3.300s] Invoking command in '/home/theo/Capstone_communication/src/mqtt_subscriber': PYTHONPATH=/home/theo/Capstone_communication/build/mqtt_subscriber/prefix_override:/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/theo/Capstone_communication/build/mqtt_subscriber/build install --record /home/theo/Capstone_communication/build/mqtt_subscriber/install.log --single-version-externally-managed
+[4.394s] running egg_info
+[4.397s] writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO
+[4.398s] writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt
+[4.399s] writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt
+[4.400s] writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt
+[4.401s] writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt
+[4.409s] reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[4.413s] writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'
+[4.414s] running build
+[4.414s] running build_py
+[4.415s] copying mqtt_subscriber/mqtt_subscriber.py -> /home/theo/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber
+[4.417s] running install
+[4.418s] running install_lib
+[4.422s] copying /home/theo/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber/mqtt_subscriber.py -> /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber
+[4.425s] byte-compiling /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber/mqtt_subscriber.py to mqtt_subscriber.cpython-310.pyc
+[4.428s] running install_egg_info
+[4.434s] removing '/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[4.436s] Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info
+[4.444s] running install_scripts
+[4.524s] Installing mqtt_subscriber script to /home/theo/Capstone_communication/install/mqtt_subscriber/lib/mqtt_subscriber
+[4.525s] writing list of installed files to '/home/theo/Capstone_communication/build/mqtt_subscriber/install.log'
+[4.645s] Invoked command in '/home/theo/Capstone_communication/src/mqtt_subscriber' returned '0': PYTHONPATH=/home/theo/Capstone_communication/build/mqtt_subscriber/prefix_override:/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mqtt_subscriber build --build-base /home/theo/Capstone_communication/build/mqtt_subscriber/build install --record /home/theo/Capstone_communication/build/mqtt_subscriber/install.log --single-version-externally-managed
