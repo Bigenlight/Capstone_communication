@@ -32,7 +32,10 @@ class MQTTSubscriber(Node):
         self.mqtt_client.on_message = self.on_message
 
         # Connect to the Windows PC MQTT broker
-        self.mqtt_client.connect("192.168.0.12", 1883, 60)  # Replace with your Windows PC IP address
+        # window
+        #self.mqtt_client.connect("192.168.0.12", 1883, 60)  # Replace with your Windows PC IP address
+        # hotspot
+        self.mqtt_client.connect("192.168.151.154", 1883, 60)
         self.mqtt_client.loop_start()
 
     def on_connect(self, client, userdata, flags, rc):
