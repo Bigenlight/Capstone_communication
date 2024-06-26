@@ -1,0 +1,24 @@
+[2.857s] Invoking command in '/home/theo/Capstone_communication/src/coordinate_publisher': PYTHONPATH=/home/theo/Capstone_communication/build/coordinate_publisher/prefix_override:/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/theo/Capstone_communication/build/coordinate_publisher/build install --record /home/theo/Capstone_communication/build/coordinate_publisher/install.log --single-version-externally-managed install_data
+[3.945s] running egg_info
+[3.948s] writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO
+[3.950s] writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt
+[3.951s] writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt
+[3.951s] writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt
+[3.953s] writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt
+[3.961s] reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[3.965s] writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'
+[3.965s] running build
+[3.966s] running build_py
+[3.967s] copying coordinate_publisher/publisher.py -> /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher
+[3.968s] running install
+[3.969s] running install_lib
+[3.973s] copying /home/theo/Capstone_communication/build/coordinate_publisher/build/lib/coordinate_publisher/publisher.py -> /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher
+[3.975s] byte-compiling /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher/publisher.py to publisher.cpython-310.pyc
+[3.978s] running install_data
+[3.979s] running install_egg_info
+[3.985s] removing '/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[3.987s] Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info
+[3.992s] running install_scripts
+[4.072s] Installing coordinate_publisher script to /home/theo/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher
+[4.074s] writing list of installed files to '/home/theo/Capstone_communication/build/coordinate_publisher/install.log'
+[4.191s] Invoked command in '/home/theo/Capstone_communication/src/coordinate_publisher' returned '0': PYTHONPATH=/home/theo/Capstone_communication/build/coordinate_publisher/prefix_override:/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/coordinate_publisher build --build-base /home/theo/Capstone_communication/build/coordinate_publisher/build install --record /home/theo/Capstone_communication/build/coordinate_publisher/install.log --single-version-externally-managed install_data

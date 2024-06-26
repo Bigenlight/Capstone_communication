@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001006] (coordinate_publisher) JobQueued: {'identifier': 'coordinate_publisher', 'dependencies': OrderedDict()}
+[0.001985] (mqtt_subscriber) JobQueued: {'identifier': 'mqtt_subscriber', 'dependencies': OrderedDict()}
+[0.002575] (coordinate_publisher) JobStarted: {'identifier': 'coordinate_publisher'}
+[0.040472] (mqtt_subscriber) JobStarted: {'identifier': 'mqtt_subscriber'}
+[0.099154] (-) TimerEvent: {}
+[0.200032] (-) TimerEvent: {}
+[0.300778] (-) TimerEvent: {}
+[0.401645] (-) TimerEvent: {}
+[0.502366] (-) TimerEvent: {}
+[0.603097] (-) TimerEvent: {}
+[0.703795] (-) TimerEvent: {}
+[0.804459] (-) TimerEvent: {}
+[0.905115] (-) TimerEvent: {}
+[1.005808] (-) TimerEvent: {}
+[1.106469] (-) TimerEvent: {}
+[1.207283] (-) TimerEvent: {}
+[1.308365] (-) TimerEvent: {}
+[1.409141] (-) TimerEvent: {}
+[1.509862] (-) TimerEvent: {}
+[1.610644] (-) TimerEvent: {}
+[1.711396] (-) TimerEvent: {}
+[1.812070] (-) TimerEvent: {}
+[1.912753] (-) TimerEvent: {}
+[2.013423] (-) TimerEvent: {}
+[2.114112] (-) TimerEvent: {}
+[2.214816] (-) TimerEvent: {}
+[2.315550] (-) TimerEvent: {}
+[2.416485] (-) TimerEvent: {}
+[2.517685] (-) TimerEvent: {}
+[2.618514] (-) TimerEvent: {}
+[2.719406] (-) TimerEvent: {}
+[2.820539] (-) TimerEvent: {}
+[2.921959] (-) TimerEvent: {}
+[3.023064] (-) TimerEvent: {}
+[3.123801] (-) TimerEvent: {}
+[3.224993] (-) TimerEvent: {}
+[3.325719] (-) TimerEvent: {}
+[3.426862] (-) TimerEvent: {}
+[3.528057] (-) TimerEvent: {}
+[3.629316] (-) TimerEvent: {}
+[3.730592] (-) TimerEvent: {}
+[3.832285] (-) TimerEvent: {}
+[3.933623] (-) TimerEvent: {}
+[4.034975] (-) TimerEvent: {}
+[4.136340] (-) TimerEvent: {}
+[4.237868] (-) TimerEvent: {}
+[4.339478] (-) TimerEvent: {}
+[4.350422] (coordinate_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/coordinate_publisher', 'build', '--build-base', '/home/theo/Capstone_communication/build/coordinate_publisher/build', 'install', '--record', '/home/theo/Capstone_communication/build/coordinate_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/theo/Capstone_communication/src/coordinate_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'SSH_CLIENT': '192.168.0.12 56249 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/theo', 'OLDPWD': '/home/theo', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/theo/Capstone_communication/install:/home/theo/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'theo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/theo/Capstone_communication/install/mqtt_subscriber:/home/theo/Capstone_communication/install/mavros_launch:/home/theo/Capstone_communication/install/coordinate_publisher:/home/theo/install/mqtt_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/theo/Capstone_communication/build/coordinate_publisher', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.12 56249 192.168.0.38 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/theo/Capstone_communication/build/coordinate_publisher/prefix_override:/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/home/theo/ros2_ws/build/mavros_launch:/home/theo/Capstone_communication/install/mavros_launch/lib/python3.10/site-packages:/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:/home/theo/install/mqtt_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.377584] (mqtt_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mqtt_subscriber', 'build', '--build-base', '/home/theo/Capstone_communication/build/mqtt_subscriber/build', 'install', '--record', '/home/theo/Capstone_communication/build/mqtt_subscriber/install.log', '--single-version-externally-managed'], 'cwd': '/home/theo/Capstone_communication/src/mqtt_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'theo', 'SSH_CLIENT': '192.168.0.12 56249 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/theo', 'OLDPWD': '/home/theo', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/theo/Capstone_communication/install:/home/theo/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'theo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/theo/Capstone_communication/install/mqtt_subscriber:/home/theo/Capstone_communication/install/mavros_launch:/home/theo/Capstone_communication/install/coordinate_publisher:/home/theo/install/mqtt_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/theo/Capstone_communication/build/mqtt_subscriber', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.12 56249 192.168.0.38 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/theo/Capstone_communication/build/mqtt_subscriber/prefix_override:/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages:/home/theo/ros2_ws/build/mavros_launch:/home/theo/Capstone_communication/install/mavros_launch/lib/python3.10/site-packages:/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages:/home/theo/install/mqtt_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.439777] (-) TimerEvent: {}
+[4.541711] (-) TimerEvent: {}
+[4.643267] (-) TimerEvent: {}
+[4.744757] (-) TimerEvent: {}
+[4.846245] (-) TimerEvent: {}
+[4.947723] (-) TimerEvent: {}
+[5.049039] (-) TimerEvent: {}
+[5.150533] (-) TimerEvent: {}
+[5.251976] (-) TimerEvent: {}
+[5.353420] (-) TimerEvent: {}
+[5.455448] (-) TimerEvent: {}
+[5.556909] (-) TimerEvent: {}
+[5.606766] (coordinate_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[5.610884] (coordinate_publisher) StdoutLine: {'line': b'writing ../../build/coordinate_publisher/coordinate_publisher.egg-info/PKG-INFO\n'}
+[5.612406] (coordinate_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/coordinate_publisher/coordinate_publisher.egg-info/dependency_links.txt\n'}
+[5.613727] (coordinate_publisher) StdoutLine: {'line': b'writing entry points to ../../build/coordinate_publisher/coordinate_publisher.egg-info/entry_points.txt\n'}
+[5.614754] (coordinate_publisher) StdoutLine: {'line': b'writing requirements to ../../build/coordinate_publisher/coordinate_publisher.egg-info/requires.txt\n'}
+[5.615645] (coordinate_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/coordinate_publisher/coordinate_publisher.egg-info/top_level.txt\n'}
+[5.624228] (coordinate_publisher) StdoutLine: {'line': b"reading manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'\n"}
+[5.624919] (mqtt_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[5.627204] (mqtt_subscriber) StdoutLine: {'line': b'writing ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/PKG-INFO\n'}
+[5.628648] (mqtt_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/dependency_links.txt\n'}
+[5.630104] (coordinate_publisher) StdoutLine: {'line': b"writing manifest file '../../build/coordinate_publisher/coordinate_publisher.egg-info/SOURCES.txt'\n"}
+[5.631605] (coordinate_publisher) StdoutLine: {'line': b'running build\n'}
+[5.632430] (coordinate_publisher) StdoutLine: {'line': b'running build_py\n'}
+[5.633381] (mqtt_subscriber) StdoutLine: {'line': b'writing entry points to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/entry_points.txt\n'}
+[5.633943] (mqtt_subscriber) StdoutLine: {'line': b'writing requirements to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/requires.txt\n'}
+[5.634860] (coordinate_publisher) StdoutLine: {'line': b'running install\n'}
+[5.635565] (mqtt_subscriber) StdoutLine: {'line': b'writing top-level names to ../../build/mqtt_subscriber/mqtt_subscriber.egg-info/top_level.txt\n'}
+[5.636062] (coordinate_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[5.638812] (coordinate_publisher) StdoutLine: {'line': b'running install_data\n'}
+[5.639615] (coordinate_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.640440] (mqtt_subscriber) StdoutLine: {'line': b"reading manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'\n"}
+[5.644669] (mqtt_subscriber) StdoutLine: {'line': b"writing manifest file '../../build/mqtt_subscriber/mqtt_subscriber.egg-info/SOURCES.txt'\n"}
+[5.645712] (mqtt_subscriber) StdoutLine: {'line': b'running build\n'}
+[5.646682] (mqtt_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[5.647831] (mqtt_subscriber) StdoutLine: {'line': b'copying mqtt_subscriber/mqtt_subscriber.py -> /home/theo/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber\n'}
+[5.648481] (coordinate_publisher) StdoutLine: {'line': b"removing '/home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.659685] (-) TimerEvent: {}
+[5.660494] (mqtt_subscriber) StdoutLine: {'line': b'running install\n'}
+[5.662572] (coordinate_publisher) StdoutLine: {'line': b'Copying ../../build/coordinate_publisher/coordinate_publisher.egg-info to /home/theo/Capstone_communication/install/coordinate_publisher/lib/python3.10/site-packages/coordinate_publisher-0.0.0-py3.10.egg-info\n'}
+[5.663274] (coordinate_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[5.663856] (mqtt_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[5.664359] (mqtt_subscriber) StdoutLine: {'line': b'copying /home/theo/Capstone_communication/build/mqtt_subscriber/build/lib/mqtt_subscriber/mqtt_subscriber.py -> /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber\n'}
+[5.664766] (mqtt_subscriber) StdoutLine: {'line': b'byte-compiling /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber/mqtt_subscriber.py to mqtt_subscriber.cpython-310.pyc\n'}
+[5.665310] (mqtt_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.669380] (mqtt_subscriber) StdoutLine: {'line': b"removing '/home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.671701] (mqtt_subscriber) StdoutLine: {'line': b'Copying ../../build/mqtt_subscriber/mqtt_subscriber.egg-info to /home/theo/Capstone_communication/install/mqtt_subscriber/lib/python3.10/site-packages/mqtt_subscriber-0.0.0-py3.10.egg-info\n'}
+[5.681529] (mqtt_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[5.749690] (coordinate_publisher) StdoutLine: {'line': b'Installing coordinate_publisher script to /home/theo/Capstone_communication/install/coordinate_publisher/lib/coordinate_publisher\n'}
+[5.752018] (coordinate_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/theo/Capstone_communication/build/coordinate_publisher/install.log'\n"}
+[5.759986] (-) TimerEvent: {}
+[5.781431] (mqtt_subscriber) StdoutLine: {'line': b'Installing mqtt_subscriber script to /home/theo/Capstone_communication/install/mqtt_subscriber/lib/mqtt_subscriber\n'}
+[5.785001] (mqtt_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/theo/Capstone_communication/build/mqtt_subscriber/install.log'\n"}
+[5.860464] (-) TimerEvent: {}
+[5.955262] (coordinate_publisher) CommandEnded: {'returncode': 0}
+[5.960938] (-) TimerEvent: {}
+[6.012410] (coordinate_publisher) JobEnded: {'identifier': 'coordinate_publisher', 'rc': 0}
+[6.017187] (mqtt_subscriber) CommandEnded: {'returncode': 0}
+[6.047926] (mqtt_subscriber) JobEnded: {'identifier': 'mqtt_subscriber', 'rc': 0}
+[6.050901] (-) EventReactorShutdown: {}
