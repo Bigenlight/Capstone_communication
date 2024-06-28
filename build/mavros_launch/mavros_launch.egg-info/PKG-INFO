@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: mavros_launch
-Version: 0.0.1
-Summary: MAVROS launch package for PX4
-Maintainer: Your Name
-Maintainer-email: your.email@example.com
-License: Apache-2.0
-Requires-Dist: setuptools

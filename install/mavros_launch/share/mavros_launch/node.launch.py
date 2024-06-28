@@ -1,1 +1,0 @@
-/home/theo/ros2_ws/build/mavros_launch/launch/node.launch.py
