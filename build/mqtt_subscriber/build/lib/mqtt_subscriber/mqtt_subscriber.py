@@ -32,11 +32,11 @@ class MQTTSubscriber(Node):
         self.mqtt_client.on_message = self.on_message
 
         # Connect to MQTT broker
-        # window
+        # window(ICES lab 5g)
         #self.mqtt_client.connect("192.168.0.12", 1883, 60)  
-        # hotspot
+        # hotspot(phone)
         #self.mqtt_client.connect("192.168.151.154", 1883, 60)
-        # laptop
+        # laptop(thedering)
         self.mqtt_client.connect("192.168.137.1", 1883, 60)
 
         self.mqtt_client.loop_start()
